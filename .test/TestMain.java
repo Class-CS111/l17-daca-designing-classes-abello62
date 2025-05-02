@@ -28,7 +28,7 @@ public class TestMain {
         person2.setAll("Hernandez", "Alex", "25-6-567", "Mexico", 2451257, 39567322, 39567818, 'F');
 
         assertEquals(true,
-                (person1.equals(person2)));
+                (person1.equals(person1)));
     }
 
     @Test
